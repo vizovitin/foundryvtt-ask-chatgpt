@@ -1,0 +1,4 @@
+node_modules
+
+# Vim
+*.sw[g-p]

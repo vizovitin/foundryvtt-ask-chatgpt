@@ -1,0 +1,26 @@
+{
+  "id": "ask-chatgpt",
+  "title": "Ask ChatGPT",
+  "description": "Customizable ChatGPT integration",
+  "version": "#{VERSION}#",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.291"
+  },
+  "authors": [
+    {
+      "name": "Nikolay Vizovitin"
+    }
+  ],
+  "esmodules": [
+    "scripts/module.js"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "license": "LICENSE",
+  "readme": "README.md"
+}
