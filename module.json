@@ -21,6 +21,7 @@
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
+  "changelog": "#{URL}#/blob/master/CHANGELOG.md",
   "license": "LICENSE",
   "readme": "README.md"
 }

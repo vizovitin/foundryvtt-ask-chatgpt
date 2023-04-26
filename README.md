@@ -2,11 +2,13 @@
 
 Customizable ChatGPT integration for Foundry VTT.
 
-![](https://img.shields.io/badge/Foundry_VTT-v10-informational)
+![Foundry VTT 10](https://img.shields.io/badge/Foundry_VTT-v10-informational?style=flat-square) ![GitHub all releases downloads](https://img.shields.io/github/downloads/vizovitin/foundryvtt-ask-chatgpt/total?label=downloads%40total&style=flat-square) ![GitHub latest release downloads](https://img.shields.io/github/downloads/vizovitin/foundryvtt-ask-chatgpt/latest/total?style=flat-square) ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/vizovitin/foundryvtt-ask-chatgpt/ci.yml?label=ci&logo=github&style=flat-square)
 
 ## Installation
 
 You can install the module using the following manifest URL:
+
+`https://github.com/vizovitin/foundryvtt-ask-chatgpt/releases/latest/download/module.json`
 
 ## How to use
 
