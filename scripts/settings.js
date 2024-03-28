@@ -26,7 +26,7 @@ export const gameSystems = (() => {
 export const registerSettings = () => {
 	// 'world' scope settings are available only to GMs
 	game.settings.register(moduleName, 'useCustomGPT', {
-		name: 'User a custom/self-hosted GPT model',
+		name: 'Use a custom/self-hosted GPT model',
 		hint: 'Has to be compatible with OpenAI API. If enabled, the API key and model version settings will be ignored.',
 		scope: 'world',
 		config: true,
