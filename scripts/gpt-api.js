@@ -6,7 +6,8 @@ async function callGptApi(query) {
 	const apiKey = game.settings.get(moduleName, 'apiKey');
 	const model = game.settings.get(moduleName, 'modelVersion');
 	const prompt = getGamePromptSetting();
-	const apiUrl = 'https://api.openai.com/v1/chat/completions';
+	const service = game.settings.get(moduleName, 'useCustomGPT') ? game.settings.get(moduleName, 'customGPTUrl') : 'https://api.openai.com' 
+	const apiUrl = service + '/v1/chat/completions';
 	const promptMessage = {role: 'user', content: prompt};
 	const queryMessage = {role: 'user', content: query};
 	const messages = pushHistory().concat(promptMessage, queryMessage);
