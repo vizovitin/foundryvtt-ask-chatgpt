@@ -25,7 +25,24 @@ export const gameSystems = (() => {
 
 export const registerSettings = () => {
 	// 'world' scope settings are available only to GMs
+	game.settings.register(moduleName, 'useCustomGPT', {
+		name: 'User a custom/self-hosted GPT model',
+		hint: 'Has to be compatible with OpenAI API. If enabled, the API key and model version settings will be ignored.',
+		scope: 'world',
+		config: true,
+		type: Boolean,
+		default: false,
+	});
 
+	game.settings.register(moduleName, 'customGPTUrl', {
+		name: 'Custom GPT model URL',
+		hint: 'URL of the custom GPT model. Has to be compatible with OpenAI API.',
+		scope: 'world',
+		config: true,
+		type: String,
+		default: 'http://localhost:1234',
+	});
+	
 	game.settings.register(moduleName, 'apiKey', {
 		name: 'OpenAI API key',
 		hint: 'API key for ChatGPT from OpenAI. Get yours at https://platform.openai.com/account/api-keys .',
